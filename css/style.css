@@ -1,0 +1,1051 @@
+@font-face {
+  font-family: 'georgiaRegular';
+  src: url('../fonts/georgiaRegular.eot');
+  src: url('../fonts/georgiaRegular.eot?#iefix') format("embedded-opentype"), url('../fonts/georgiaRegular.woff') format('woff'), url('../fonts/georgiaRegular.ttf') format('truetype'), url('../fonts/georgiaRegular.svg#georgiaRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'arialRegular';
+  src: url('../fonts/arialRegular.eot');
+  src: url('../fonts/arialRegular.eot?#iefix') format("embedded-opentype"), url('../fonts/arialRegular.woff') format('woff'), url('../fonts/arialRegular.ttf') format('truetype'), url('../fonts/arialRegular.svg#arialRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  height: 100%;
+  position: relative;
+}
+html {
+  font-family: '';
+  height: 100%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.fullWidth {
+  width: 100%;
+}
+.textCenter {
+  text-align: center;
+}
+.textJustify {
+  text-align: justify;
+}
+.textRight {
+  text-align: right;
+}
+.textLeft {
+  text-align: left;
+}
+.upper {
+  text-transform: uppercase;
+}
+.half {
+  width: 50%;
+}
+.perHalf {
+  width: 49%;
+}
+.tableDiv {
+  display: table;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.tableCell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.tableRow {
+  display: table-row;
+  vertical-align: middle;
+}
+.backgroundImage {
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.blackColor {
+  color: #000000;
+}
+.whiteColor {
+  color: #ffffff;
+}
+.container {
+  max-width: 996px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+.container .nonScroll {
+  overflow: hidden;
+  height: 100%;
+}
+.container .parallaxAttach {
+  background-attachment: fixed;
+}
+.container .parallaxBackground {
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.container .formRow {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.container .formCell {
+  padding: 0 5px;
+}
+.container .formCell.formCellOne {
+  width: 8.33333333%;
+}
+.container .formCell.formCellTwo {
+  width: 16.66666667%;
+}
+.container .formCell.formCellThree {
+  width: 25%;
+}
+.container .formCell.formCellFour {
+  width: 33.33333333%;
+}
+.container .formCell.formCellSix {
+  width: 50%;
+}
+.container .formCell.formCellEight {
+  width: 66.66666667%;
+}
+.container .formCell .formCellNine {
+  width: 75%;
+}
+.container .formCell.formCellTen {
+  width: 83.33333333%;
+}
+.easeMotion {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.headerSection {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: 110px;
+}
+.headerSection .logoHeader {
+  margin: 15px 0;
+}
+.headerSection .headerText {
+  margin: 13px 0 13px 16px;
+}
+.headerSection .headerText .headerTextBlack {
+  display: block;
+  color: #000000;
+  font: 60px/60px 'georgiaRegular';
+}
+.headerSection .headerText .headerTextOrange {
+  display: block;
+  color: #ff7700;
+  font: 60px/60px 'georgiaRegular';
+}
+.headerSection .headerText .headerTextUnder {
+  display: block;
+  color: #666666;
+  font: 18px/18px 'georgiaRegular';
+}
+.headerSection .subscribeText {
+  margin: 24px 12px;
+}
+.headerSection .subscribeText .textSub1 {
+  cursor: pointer;
+  display: block;
+  font: 13px/13px 'georgiaRegular';
+  color: #666666;
+  margin: 9px 0;
+}
+.headerSection .subscribeText .textSub2 {
+  display: block;
+  cursor: pointer;
+  font: 13px/13px 'georgiaRegular';
+  color: #666666;
+  margin: 9px 0;
+}
+.headerSection .imgSubsc {
+  display: block;
+  margin: 15px 0;
+}
+#box3 {
+  color: #333;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+  text-indent: 0px;
+  -moz-transition: all 1s 0.1s ease-in;
+  -o-transition: all 1s 0.1s ease-in;
+  -webkit-transition: all 1s 0.1s ease-in;
+  cursor: pointer;
+}
+#box3:hover {
+  background-color: #97CE68;
+  color: #000;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+.topMenuSection {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  clear: both;
+}
+.topMenuSection .mainMenu {
+  position: relative;
+  height: 30px;
+  background-color: #e2e1dd;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.topMenuSection .mainMenu .menuList .mainLi a {
+  padding: 0 15px;
+  font: 12px/30px 'arialRegular';
+  color: #000000;
+}
+.topMenuSection .mainMenu .menuList .mainLi a:hover {
+  background-color: #666666;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.topMenuSection .mainMenu .menuList .mainLi:nth-child(n+2) a {
+  position: relative;
+  padding: 0 15px;
+  font: 12px/30px 'arialRegular';
+  color: #000000;
+}
+.topMenuSection .mainMenu .menuList .mainLi:nth-child(n+2) a:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: '|';
+  display: inline-block;
+  width: 1px;
+  height: 13px;
+  color: #666666;
+}
+.topMenuSection .mainMenu .menuList .mainLi:nth-child(n+2) a:hover {
+  background-color: #666666;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.topMenuSection .mainMenuRight li {
+  position: relative;
+  display: inline-block;
+}
+.topMenuSection .mainMenuRight li a {
+  padding: 0 15px;
+  font: 12px/30px 'arialRegular';
+  color: #000000;
+}
+.topMenuSection .mainMenuRight li:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #666666;
+}
+.topMenuSection .mainMenuRight li:first-child:before {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  content: '|';
+  display: inline-block;
+  width: 1px;
+  height: 13px;
+  color: #666666;
+}
+.linkPages {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: 30px;
+  background-color: #666666;
+  -webkit-border-bottom-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.linkPages .subMenuRight li {
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+}
+.linkPages .subMenuRight li a {
+  font: 12px/30px 'arialRegular';
+  color: #ffffff;
+}
+.linkPages .subMenuRight li a:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #e2e1dd;
+}
+.linkPages .subMenuRight li:nth-child(n+2):before {
+  position: absolute;
+  top: 5px;
+  left: -15px;
+  content: '|';
+  display: inline-block;
+  width: 1px;
+  height: 13px;
+  color: #ffffff;
+}
+.categorySubMenu {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: relative;
+}
+.categorySubMenu .linkInSubMenu {
+  position: relative;
+  padding: 0 15px;
+  font: 12px/30px 'arialRegular';
+  color: #000000;
+}
+.categorySubMenu .linkInSubMenu:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #666666;
+}
+.categorySubMenu .linkInSubMenu:after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: '|';
+  display: inline-block;
+  width: 1px;
+  height: 13px;
+  color: #666666;
+}
+.categorySubMenu .subMenu2 {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+}
+.categorySubMenu .subMenu2 li {
+  position: relative;
+  display: inline-block;
+}
+.categorySubMenu .subMenu2 li a {
+  height: 100%;
+  padding: 0 15px;
+  font: 12px/30px 'arialRegular';
+  color: #ffffff;
+}
+.categorySubMenu .subMenu2 li:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.categorySubMenu .subMenu2 li:hover a {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #ff7700;
+}
+.categorySubMenu .subMenu2 li:nth-child(n+2):before {
+  content: '|';
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  display: inline-block;
+  width: 1px;
+  height: 13px;
+  color: #ffffff;
+}
+.inLineOn {
+  display: inline-block;
+}
+.blockOn {
+  display: block;
+}
+.displayNone {
+  display: none;
+}
+.showSubSubMenu {
+  position: relative;
+}
+.showSubSubMenu .subMenu3Ul {
+  border-top: 1px solid #909090;
+  z-index: 999999;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 140px;
+  text-align: center;
+  padding: 0 5px;
+  background-color: #666666;
+}
+.showSubSubMenu .subMenu3Ul .subMenu3Li {
+  text-align: center;
+}
+.showSubSubMenu .subMenu3Ul .subMenu3Li:nth-child(n):before {
+  content: ' ' !important;
+}
+.showSubSubMenu .subMenu3Ul .subMenu3Li .subSubMenuLink {
+  font: 12px/24px 'arialRegular';
+  color: #FFFFFF;
+}
+.showSubSubMenu .subMenu3Ul .subMenu3Li .subSubMenuLink:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #ff7700;
+}
+.searchSection .container .searchBlock {
+  position: relative;
+  width: 300px;
+  height: 34px;
+  margin: 15px 0;
+  background-color: #e2e1dd;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.searchSection .container .searchBlock .inputText {
+  width: 205px;
+  height: 26px;
+  display: block;
+  padding: 0 20px 0 18px;
+  margin: 4px 0 4px 8px;
+  border: none;
+  background: #ffffff;
+  color: #666666;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  font: 12px/12px 'arialRegular';
+  /*Roboto Medium*/
+  outline: none;
+  /* Убираем свечение в Chrome и Safari */
+  -webkit-appearance: none;
+  /* Убираем рамку в Chrome и Safari */
+  /* Firefox 19+ */
+  /* Firefox 18- */
+}
+.searchSection .container .searchBlock .inputText::-webkit-input-placeholder {
+  color: #666666;
+}
+.searchSection .container .searchBlock .inputText::-moz-placeholder {
+  color: #666666;
+}
+.searchSection .container .searchBlock .inputText:-moz-placeholder {
+  color: #666666;
+}
+.searchSection .container .searchBlock .inputText:-ms-input-placeholder {
+  color: #666666;
+}
+.searchSection .container .searchBlock .inputButton {
+  background-color: #ff7700;
+  border: 1px solid #ff7700;
+  width: 77px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: 12px/12px 'arialRegular';
+  color: #ffffff;
+  height: 26px;
+  margin: 4px 5px;
+  cursor: pointer;
+  z-index: 1;
+  outline: none;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.searchSection .container .searchBlock .inputButton:hover {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #ffffff;
+  color: #ff7700;
+}
+.greyStrength {
+  background-color: #e2e1dd;
+  width: 100%;
+  height: 1px;
+  margin: 12px 0 12px 0;
+  color: #666666;
+}
+.commentCategory {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #666666;
+}
+.commentCategory a {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.commentCategory a:hover {
+  color: #ff7700;
+}
+.leftContent {
+  position: absolute;
+  width: 47%;
+  top: -40px;
+}
+.leftContent .subMenuContent .titleSubMenuContent {
+  font: 30px/30px 'georgiaRegular';
+  color: #000000;
+}
+.leftContent .subMenuContent .imgsubMenu {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+}
+.leftContent .subMenuContent .imgsubMenu .blackLine {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  width: 100%;
+  height: 26px;
+  background: #262626;
+  color: #ffffff;
+  font: 14px/26px 'georgiaRegular';
+  padding: 0 0 0 10px;
+  cursor: pointer;
+  z-index: 999999999;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.leftContent .subMenuContent .imgsubMenu .blackLine:hover {
+  background-color: #636363;
+  color: #e7e7e7;
+}
+.leftContent .subMenuContent .imgsubMenu img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.leftContent .subMenuContent .imgsubMenu img:hover {
+  /*а вот тут начинаются изминения */
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.leftContent .subMenuContent .subTitle {
+  font: 24px/24px 'georgiaRegular';
+  color: #ff7700;
+  margin: 12px 0;
+}
+.leftContent .subMenuContent .datePost {
+  font: 18px/18px 'georgiaRegular';
+  color: #666666;
+}
+.leftContent .subMenuContent .textContentAjax {
+  font: 12px/18px 'arialRegular';
+  color: #000000;
+  margin: 15px 0;
+}
+.leftContent .subMenuContent .textContentAjax:after {
+  content: '[...more]';
+  color: #666666;
+  font: 12px/12px 'arialRegular';
+  cursor: pointer;
+}
+.leftContent .subMenuContent .commentCategory {
+  color: #666666;
+}
+.leftContent .contentWithPhoto {
+  height: 72px;
+}
+.leftContent .contentWithPhoto .imgContent {
+  display: block;
+  float: left;
+  height: 100%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.leftContent .contentWithPhoto .imgContent:hover {
+  /*а вот тут начинаются изминения */
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.leftContent .contentWithPhoto .withPhotoBlock {
+  display: block;
+  padding: 0 0 0 87px;
+}
+.leftContent .contentWithPhoto .withPhotoBlock .titleWithPhoto {
+  display: block;
+  font: 18px/22px 'georgiaRegular';
+  color: #ff7700;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.leftContent .contentWithPhoto .withPhotoBlock .titleWithPhoto:hover {
+  color: #ff6d00;
+  font-size: 19px;
+}
+.leftContent .contentWithPhoto .withPhotoBlock .titleWithPhotoContent {
+  display: block;
+  font: 12px/18px 'arialRegular';
+}
+.leftContent .contentWithPhoto .withPhotoBlock .titleWithPhotoContent:after {
+  content: '[...more]';
+  color: #666666;
+  font: 12px/12px 'arialRegular';
+  cursor: pointer;
+}
+.leftContent .postWithoutPhoto .withoutPhotoTitle {
+  color: #ff7700;
+  font: 18px/18px 'georgiaRegular';
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.leftContent .postWithoutPhoto .withoutPhotoTitle:hover {
+  color: #ff6d00;
+  font-size: 19px;
+}
+.leftContent .postWithoutPhoto .withoutPhotoDate {
+  font: 14px/18px 'georgiaRegular';
+  color: #666666;
+  margin: 7px 0;
+}
+.leftContent .postWithoutPhoto .withoutPhotoContent {
+  font: 12px/18px 'georgiaRegular';
+  color: #000000;
+}
+.leftContent .moreUnits {
+  height: 100px;
+  padding: 15px 0 0 0;
+}
+.leftContent .moreUnits a {
+  font: 18px/18px 'georgiaRegular';
+  color: #666666;
+}
+/* строка меню */
+#menu {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin: 0px;
+  padding: 0px 5px 0px 5px;
+  list-style: none;
+  height: 32px;
+  border-bottom: 2px solid #e2e1dd;
+  background: #FFFFFF;
+  font-family: Arial;
+}
+/* вкладка меню */
+#menu li {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: 30px;
+  width: 107px;
+  margin-right: 6px;
+  float: left;
+  display: inline;
+  cursor: pointer;
+  color: #e2e1dd;
+  background: #666666;
+  border-radius: 3px 3px 0 0;
+  font: 12px/30px 'arialRegular';
+  text-align: center;
+}
+#menu li:first-child {
+  margin-left: 6px;
+}
+/* активная вкладка меню */
+.tab_active {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: #ff7700 !important;
+  background: #e2e1dd !important;
+  font: 12px/30px 'arialRegular';
+  text-align: center;
+}
+/* контейнер с блоками контента */
+#container {
+  clear: both;
+  border-radius: 0 0 8px 8px;
+  padding: 5px;
+  height: 262px;
+  overflow: hidden;
+}
+/* скрытый блок контента */
+#container .tab_content {
+  display: none;
+}
+/* видимый блок контента */
+.visible {
+  display: block !important;
+}
+#popular_content .tabContentPopular {
+  list-style-image: url(../img/star.png);
+  padding: 5px 0 0 25px;
+}
+#popular_content .tabContentPopular li {
+  font: 15px/24px 'georgiaRegular';
+  color: #666666;
+}
+.divContent {
+  height: 34px;
+  width: 200px;
+  margin: 15px 70px 15px 0;
+  padding: 0 10px;
+  color: red;
+  font: 12px/29px 'georgiaRegular';
+  border: 2px solid red;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+.red {
+  color: red;
+  font: 13px/13px 'georgiaRegular';
+}
+.green {
+  color: #0c7400;
+  font: 26px/26px 'georgiaRegular';
+}
+.blue {
+  color: #180088;
+  font: 39px/39px 'georgiaRegular';
+}
+.sliderBlock .flashIciBlock {
+  padding: 17px;
+}
+.sliderBlock .flashIciBlock .linkFlash .flashIco {
+  display: block;
+  height: 125px;
+  width: 125px;
+  float: left;
+}
+.sliderBlock .flashIciBlock .linkFlash .flashIcoMain {
+  display: block;
+  height: 125px;
+  width: 125px;
+  float: left;
+  margin: 0 25px;
+}
+.rightContent .sliderBlock {
+  position: relative;
+  height: 170px;
+  background-color: #e2e1dd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+.rightContent .sliderBlock .advertisingText {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font: 12px/12px 'arialRegular';
+  color: #666666;
+}
+.rightContent .tabBlock {
+  height: 295px;
+  background-color: #e2e1dd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.rightContent .videoBlock {
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 250px;
+  background-color: #e2e1dd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.rightContent .videoBlock .videoYoutube {
+  overflow: hidden;
+  width: 60%;
+  height: 100%;
+  background: #e2e1dd;
+}
+.rightContent .videoBlock .recentVideos {
+  padding: 0 15px 0 15px;
+  width: 40%;
+  height: 100%;
+  background-color: #e2e1dd;
+}
+.rightContent .videoBlock .recentVideos .titleRecent {
+  font: 18px/18px 'georgiaRegular';
+  color: #ff7700;
+  margin-bottom: 18px;
+}
+.rightContent .videoBlock .recentVideos .recentContent {
+  max-height: 28px;
+  overflow: hidden;
+  font: 12px/14px 'arialRegular';
+  color: #666666;
+  margin-bottom: 10px;
+}
+.rightContent .categoriesArchivesSites {
+  height: 220px;
+}
+.rightContent .categoriesArchivesSites .cat {
+  width: 31%;
+  margin: 0 2.333333% 0 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.rightContent .categoriesArchivesSites .cat:hover {
+  background-color: #eceeee;
+}
+.rightContent .categoriesArchivesSites .arch {
+  width: 31%;
+  margin: 0 2.333333% 0 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.rightContent .categoriesArchivesSites .arch:hover {
+  background-color: #eceeee;
+}
+.rightContent .categoriesArchivesSites .relat {
+  width: 31%;
+  margin: 0 2.333333% 0 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.rightContent .categoriesArchivesSites .relat:hover {
+  background-color: #eceeee;
+}
+.titleCat {
+  color: #ff7700;
+  font: 18px/18px 'georgiaRegular';
+  margin-bottom: 12px;
+}
+.greyLine {
+  margin-bottom: 18px;
+}
+.catContent {
+  height: 144px;
+  overflow: hidden;
+}
+.catContent li {
+  font: 14px/18px 'arialRegular';
+  color: #000000;
+}
+.catContent li a {
+  color: #ff7700;
+  font: 14px/18px 'arialRegular';
+}
+.topMargin15 {
+  margin-top: 15px;
+  width: 100%;
+  height: 1px;
+  background-color: #e2e1dd;
+}
+.footerSection {
+  position: absolute;
+  bottom: -984px;
+  left: 0;
+  height: 45px;
+}
+.footerSection .greyFullLine {
+  width: 100%;
+  height: 1px;
+  background-color: #e2e1dd;
+}
+.footerSection .footerCopyright {
+  font: 12px/45px 'georgiaRegular';
+  color: #666666;
+}
+.greyLine1 {
+  width: 100%;
+  height: 1px;
+  background-color: #e2e1dd;
+  margin-bottom: 8px;
+}
+/* Задаем сброс обтекания */
+.clear {
+  margin-top: -1px;
+  height: 1px;
+  clear: both;
+  zoom: 1;
+}
+/* Slider */
+.slider {
+  /* Ширина контейнера */
+  width: 100%;
+  /* Внешние тступы сверху и снизу */
+  margin: 0px auto;
+  /* Внутренние отступы для ссылок navy */
+  /* Позиционирование */
+  position: relative;
+  /* Скроем то что выходит за границы */
+  overflow: hidden;
+}
+/* Двойной клик по ссылкам вперед/назад вызывает выделение всех элементов слайдера,
+поэтому предотвращаем это */
+.slider::-moz-selection {
+  background: transparent;
+  color: #fff;
+  text-shadow: none;
+}
+.slider::selection {
+  background: transparent;
+  color: #fff;
+  text-shadow: none;
+}
+.slide-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.slide-wrap {
+  position: relative;
+  left: 0px;
+  top: 0;
+  /* максимально возможная ширина обертки слайдера */
+  width: 10000000px;
+}
+.slide-item {
+  /* Ширина слайда */
+  width: 140px;
+  /* Внутренние отступы */
+  padding: 10px 32px;
+  /* Обтекание */
+  float: left;
+}
+.slide-title {
+  /* Шрифт */
+  font: bold 16px monospace;
+  /* Указываем, что элемент блочный */
+  display: block;
+}
+/* навигация вперед/назад */
+.navy {
+  /* абсолютное позиционирование */
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 135px;
+  /* ширина ссылок */
+  width: 30px;
+  cursor: pointer;
+}
+.prev-slide {
+  left: -4px;
+  background: #e2e1dd url(../img/backButton.png) 11px 55% no-repeat;
+}
+.next-slide {
+  right: 0;
+  background: #e2e1dd url(../img/nextButton.png) 13px 55% no-repeat;
+}
+.navy.disable {
+  background: #e2e1dd;
+}
+/* навигация старт/пауза */
+.auto {
+  width: 7px;
+  height: 11px;
+  cursor: pointer;
+  margin: 0px auto;
+}
+.play {
+  background: url(../img/bg/play.png) center no-repeat;
+}
+.pause {
+  background: url(../img/bg/pause.png) center no-repeat;
+}
